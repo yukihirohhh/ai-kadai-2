@@ -829,7 +829,7 @@ void Enemy::Update()
 
 void Enemy::Draw()
 {
-    DrawBox(pos_.x, pos_.y, pos_.x + CHA_WIDTH, pos_.y + CHA_HEIGHT, GetColor(80, 89, 10), TRUE);
+    DrawBox(pos_.x, pos_.y, pos_.x + CHA_WIDTH, pos_.y + CHA_HEIGHT, GetColor(180, 189, 110), TRUE);
     Imgui();
 }
 
